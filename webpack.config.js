@@ -7,6 +7,7 @@ module.exports = {
 	
 	output: {
 		path: __dirname + '/dist',
+		port: 5000,
 		publicPath: '/',
 		filename: "bundle.js"
 	},
